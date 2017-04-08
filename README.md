@@ -13,4 +13,5 @@ http://localhost:5000
 ## Heroku
 
     heroku create MY_APP_NAME
+    git push heroku master
     heroku open

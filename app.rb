@@ -22,7 +22,7 @@ __END__
 </html>
 
 @@ index
-<h1>Sinatra::Patan</h1>
-<p>Oh yeah! — Sinatra is ready for your brilliant new idea.<p>
-<p><img src="patan.jpg" alt="patan" /></p>
-<p>—Sure!...<em>brilliant</em>. Hawking: get ready!</p>
+  <h1>Sinatra::Patan</h1>
+  <p>Oh yeah! — Sinatra is ready for your brilliant new idea.<p>
+  <p><img src="patan.jpg" alt="patan" /></p>
+  <p>—Sure!...<em>brilliant</em>. Hawking: get ready!</p>

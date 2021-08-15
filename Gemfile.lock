@@ -23,13 +23,13 @@ PLATFORMS
 
 DEPENDENCIES
   foreman
-  puma (>= 3.12.4)
-  rack (>= 1.6.12)
+  puma
+  rack
   shotgun
-  sinatra (= 1.4.8)
+  sinatra
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.7.1p83
 
 BUNDLED WITH
-   1.16.2
+   1.17.3

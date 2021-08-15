@@ -1,11 +1,11 @@
 source "https://rubygems.org"
-ruby "2.3.1"
+ruby "2.7.1"
 
-gem 'sinatra', '1.4.8'
-gem "rack", ">= 1.6.12"
-gem 'puma', '>= 3.12.4'
-gem 'foreman'
+gem "sinatra"
+gem "rack"
+gem "puma"
+gem "foreman"
 
 group :development do
-  gem 'shotgun'
+  gem "shotgun"
 end

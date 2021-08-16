@@ -1,2 +1,5 @@
-require "./app"
-run App
+require "./lib/app"
+
+map '/' do
+  run Patan::App
+end

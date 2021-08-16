@@ -1,11 +1,20 @@
 source "https://rubygems.org"
 ruby "2.7.1"
 
-gem "sinatra"
-gem "rack", ">= 2.1.4"
+gem "rack"
 gem "puma", ">= 4.3.8"
-gem "foreman"
+gem "activerecord"
+gem "rake"
+
+gem "sinatra"
+gem "sinatra-activerecord"
 
 group :development do
+  gem "foreman"
   gem "shotgun"
+  gem "sqlite3"
+end
+
+group :production do
+  gem "mysql2"
 end

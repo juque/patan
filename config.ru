@@ -1,3 +1,4 @@
+require "./boot"
 require "./lib/app"
 
 map '/' do

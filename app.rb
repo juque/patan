@@ -1,7 +1,11 @@
-require 'sinatra/base'
+module Patan
+  class App < Sinatra::Base
 
-class App < Sinatra::Base
-  get '/' do
-    erb :index
+    set :root, ROOT
+    set :public_folder, File.dirname(__FILE__) + 'public'
+
+    get '/' do
+      erb :index
+    end
   end
 end

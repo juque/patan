@@ -1,2 +1,6 @@
+require "./boot"
 require "./app"
-run App
+
+map '/' do
+  run Patan::App
+end

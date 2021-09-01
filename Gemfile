@@ -5,6 +5,7 @@ gem "rack"
 gem "puma", ">= 4.3.8"
 gem "activerecord"
 gem "rake"
+gem 'dotenv'
 
 gem "sinatra"
 gem "sinatra-activerecord"

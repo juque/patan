@@ -1,8 +1,9 @@
 require 'bundler/setup'
 require 'sinatra/base'
 require 'sinatra/activerecord'
+require 'dotenv'
 
-ENV['RACK_ENV'] ||= 'development'
+Dotenv.load
 
 ROOT = Pathname.new(File.dirname(__FILE__))
 
